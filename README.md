@@ -301,30 +301,65 @@ Setelah itu ubahlah agar url www.abimanyu.yyy.com/index.php/home menjadi www.abi
 /root/abimanyu.f04.com.conf
 ![12-a](images/12-a.jpg)
 
-<!-- 
 ## Soal 13
 
 Selain itu, pada subdomain www.parikesit.abimanyu.yyy.com, DocumentRoot disimpan pada /var/www/parikesit.abimanyu.yyy
 
+<hr style="width:60%;text-align:center">
+
+**Abimanyu**<br>
+/root/script.sh
+![13-a](images/13-a.jpg)
+
+/root/parikesit.abimanyu.f04.com.conf
+![13-a](images/13-a.jpg)
 
 ## Soal 14
 
+Pada subdomain tersebut folder /public hanya dapat melakukan directory listing sedangkan pada folder /secret tidak dapat diakses (403 Forbidden).
 
+<hr style="width:60%;text-align:center">
+
+**Abimanyu**<br>
+/root/parikesit.abimanyu.f04.com.conf
+![15-a](images/15-a.jpg)
 
 ## Soal 15
 
 Buatlah kustomisasi halaman error pada folder /error untuk mengganti error kode pada Apache. Error kode yang perlu diganti adalah 404 Not Found dan 403 Forbidden.
 
+<hr style="width:60%;text-align:center">
+
+**Abimanyu**<br>
+/root/parikesit.abimanyu.f04.com.conf
+![15-a](images/15-a.jpg)
 
 ## Soal 16
 
+Buatlah suatu konfigurasi virtual host agar file asset www.parikesit.abimanyu.yyy.com/public/js menjadi www.parikesit.abimanyu.yyy.com/js
 
+
+**Abimanyu**<br>
+/root/parikesit.abimanyu.f04.com.conf
+![16-a](images/16-a.jpg)
 
 ## Soal 17
 
 Agar aman, buatlah konfigurasi agar www.rjp.baratayuda.abimanyu.yyy.com hanya dapat diakses melalui port 14000 dan 14400.
 
+<hr style="width:60%;text-align:center">
 
+**Abimanyu**<br>
+/root/script.sh
+![17-a](images/17-a.jpg)
+
+/root/.htaccess.sh
+![17-b](images/17-b.jpg)
+
+/root/rjp.baratayuda.abimanyu.f04.com.conf
+![17-c](images/17-c.jpg)
+
+<!-- 
 ## Soal 18
 
 Untuk mengaksesnya buatlah autentikasi username berupa “Wayang” dan password “baratayudayyy” dengan yyy merupakan kode kelompok. Letakkan DocumentRoot pada /var/www/rjp.baratayuda.abimanyu.yyy.
