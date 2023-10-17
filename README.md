@@ -27,7 +27,7 @@ Yudhistira akan digunakan sebagai DNS Master, Werkudara sebagai DNS Slave, Arjun
 
 Konfigurasi setiap node sebagai berikut:
 
-<!-- 
+
 Router: 
  - **Pandudewanata**
     ```
@@ -121,9 +121,9 @@ Web Server:
 	netmask 255.255.255.0
 	gateway 192.223.3.1
     ```
--->
 
-<!-- ## Soal 2
+
+## Soal 2
 
 Buatlah website utama pada node arjuna dengan akses ke arjuna.yyy.com dengan alias www.arjuna.yyy.com dengan yyy merupakan kode kelompok.
 
@@ -261,7 +261,6 @@ Pada soal ini setiap worker di-install dengan nginx. Command installasi nginx ka
 **Arjuna, Prabukusuma, Abimanyu, Wisanggeni**<br>
 /root/install-script.sh
 ![9-a](images/9-a.jpg)
--->
 
 ## Soal 10
 
