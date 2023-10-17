@@ -369,12 +369,23 @@ Untuk mengaksesnya buatlah autentikasi username berupa “Wayang” dan password
 /root/script.sh
 ![18-a](images/18-a.jpg)
 
-<!-- 
-
 ## Soal 19
 
+Buatlah agar setiap kali mengakses IP dari Abimanyu akan secara otomatis dialihkan ke www.abimanyu.yyy.com (alias)
 
+**Abimanyu**<br>
+/root/000-default.conf
+![19-a](images/19-a.png)
+
+/root/script.sh
+![19-b](images/19-b.png)
 
 ## Soal 20
+Karena website www.parikesit.abimanyu.yyy.com semakin banyak pengunjung dan banyak gambar gambar random, maka ubahlah request gambar yang memiliki substring “abimanyu” akan diarahkan menuju abimanyu.png.
 
--->
+**Abimanyu**<br>
+/root/.htaccess-abimanyu
+![20-a](images/20-a.png)
+
+/root/parikesit.abimanyu.f04.com.conf
+![20-b](images/20-b.png)
