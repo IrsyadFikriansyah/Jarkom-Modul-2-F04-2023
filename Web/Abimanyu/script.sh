@@ -35,9 +35,13 @@ cp /root/ports.conf /etc/apache2/ports.conf
 # 19
 cp /root/abimanyu-redirect.conf /etc/apache2/sites-available/abimanyu-redirect.conf
 
-# Configure htcaccess
+# Configure htcaccess abimanyu
 a2enmod rewrite
 cp /root/.htaccess /var/www/abimanyu.f04/.htaccess
+
+# Configure htaccess parikesit abimanyu
+a2enmod rewrite 
+cp /root/.htaccess-abimanyu /var/www/parikesit.abimanyu.f04/.htaccess
 
 service apache2 restart
 service nginx restart
