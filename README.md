@@ -359,11 +359,17 @@ Agar aman, buatlah konfigurasi agar www.rjp.baratayuda.abimanyu.yyy.com hanya da
 /root/rjp.baratayuda.abimanyu.f04.com.conf
 ![17-c](images/17-c.jpg)
 
-<!-- 
 ## Soal 18
 
 Untuk mengaksesnya buatlah autentikasi username berupa “Wayang” dan password “baratayudayyy” dengan yyy merupakan kode kelompok. Letakkan DocumentRoot pada /var/www/rjp.baratayuda.abimanyu.yyy.
 
+<hr style="width:60%;text-align:center">
+
+**Abimanyu**<br>
+/root/script.sh
+![17-a](images/17-a.jpg)
+
+<!-- 
 
 ## Soal 19
 
