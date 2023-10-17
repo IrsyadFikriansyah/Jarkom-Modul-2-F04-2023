@@ -367,7 +367,7 @@ Untuk mengaksesnya buatlah autentikasi username berupa “Wayang” dan password
 
 **Abimanyu**<br>
 /root/script.sh
-![17-a](images/17-a.jpg)
+![18-a](images/18-a.jpg)
 
 <!-- 
 
