@@ -23,7 +23,7 @@ Yudhistira akan digunakan sebagai DNS Master, Werkudara sebagai DNS Slave, Arjun
 
 <hr style="width:60%;text-align:center">
 
-![1](Images/1.png)
+![1](images/1.png)
 
 Konfigurasi setiap node sebagai berikut:
 
@@ -131,16 +131,16 @@ Buatlah website utama pada node arjuna dengan akses ke arjuna.yyy.com dengan ali
 
 **Yudhistira**<br>
 /root/script.sh
-![2-a](Images/2-a.jpg)
+![2-a](images/2-a.jpg)
 
 /root/arjuna/arjuna.f04.com
-![2-b](Images/2-b.jpg)
+![2-b](images/2-b.jpg)
 
 /root/named.conf.local
-![2-c](Images/2-c.jpg)
+![2-c](images/2-c.jpg)
 
 hasil:
-![2-d](Images/2-d.jpg) 
+![2-d](images/2-d.jpg) 
 
 ## Soal 3
 
@@ -150,16 +150,16 @@ Dengan cara yang sama seperti soal nomor 2, buatlah website utama dengan akses k
 
 **Yudhistira**<br>
 /root/script.sh
-![3-a](Images/3-a.jpg)
+![3-a](images/3-a.jpg)
 
 /root/abimanyu/abimanyu.f04.com
-![3-b](Images/3-b.jpg)
+![3-b](images/3-b.jpg)
 
 /root/named.conf.local
-![3-c](Images/3-c.jpg)
+![3-c](images/3-c.jpg)
 
 hasil:
-![3-d](Images/3-d.jpg)
+![3-d](images/3-d.jpg)
 
 ## Soal 4
 
@@ -169,10 +169,10 @@ Kemudian, karena terdapat beberapa web yang harus di-deploy, buatlah subdomain p
 
 **Yudhistira**<br>
 /root/abimanyu/abimanyu.f04.com
-![4-a](Images/4-a.jpg) 
+![4-a](images/4-a.jpg) 
 
 hasil:
-![4-b](Images/4-b.jpg)
+![4-b](images/4-b.jpg)
 
 ## Soal 5
 
@@ -182,16 +182,16 @@ Buat juga reverse domain untuk domain utama. (Abimanyu saja yang direverse)
 
 **Yudhistira**<br>
 /root/script.sh
-![5-a](Images/5-a.jpg)
+![5-a](images/5-a.jpg)
 
 /root/abimanyu/3.223.192.in-addr.arpa
-![5-b](Images/5-b.jpg)
+![5-b](images/5-b.jpg)
 
 /root/named.conf.local
-![5-c](Images/5-c.jpg)
+![5-c](images/5-c.jpg)
 
 hasil:
-![5-d](Images/5-d.jpg)
+![5-d](images/5-d.jpg)
 
 ## Soal 6
 
@@ -201,20 +201,20 @@ Agar dapat tetap dihubungi ketika DNS Server Yudhistira bermasalah, buat juga We
 
 **Yudhistira**<br>
 /root/script.sh
-![6-a](Images/6-a.jpg)
+![6-a](images/6-a.jpg)
 
 /root/abimanyu/named.conf.local
-![6-b](Images/6-b.jpg)
+![6-b](images/6-b.jpg)
 
 **Werkudara**<br>
 /root/script.sh
-![6-c](Images/6-c.jpg)
+![6-c](images/6-c.jpg)
 
 /root/named.conf.local
-![6-d](Images/6-d.jpg)
+![6-d](images/6-d.jpg)
 
 hasil:
-![6-e](Images/6-e.jpg)<br>
+![6-e](images/6-e.jpg)<br>
 \* (bind9 pada Yudhistira telah di stop)
 
 ## Soal 7
@@ -225,17 +225,17 @@ Seperti yang kita tahu karena banyak sekali informasi yang harus diterima, buatl
 
 **Yudhistira**<br>
 /root/abimanyu/abimanyu.f04.com
-![7-a](Images/7-a.jpg)
+![7-a](images/7-a.jpg)
 
 **Werkudara**<br>
 /root/baratayuda/baratayuda.abimanyu.f04.com
-![7-b](Images/7-b.jpg)
+![7-b](images/7-b.jpg)
 
 /root/named.conf.local
-![7-c](Images/7-c.jpg)
+![7-c](images/7-c.jpg)
 
 hasil:
-![7-d](Images/7-d.jpg)
+![7-d](images/7-d.jpg)
 
 ## Soal 8
 
@@ -245,10 +245,10 @@ Untuk informasi yang lebih spesifik mengenai Ranjapan Baratayuda, buatlah subdom
 
 **Wekudara**<br>
 /root/baratayuda/baratayuda.abimanyu.f04.com
-![8-a](Images/8-a.jpg)
+![8-a](images/8-a.jpg)
 
 hasil:
-![8-b](Images/8-b.jpg)
+![8-b](images/8-b.jpg)
 
 ## Soal 9
 
@@ -260,7 +260,7 @@ Pada soal ini setiap worker di-install dengan nginx. Command installasi nginx ka
 
 **Arjuna, Prabukusuma, Abimanyu, Wisanggeni**<br>
 /root/install-script.sh
-![9-a](Images/9-a.jpg)
+![9-a](images/9-a.jpg)
 
 ## Soal 10
 
@@ -273,10 +273,10 @@ Pada soal ini setiap worker di-install dengan nginx. Command installasi nginx ka
 
 **Arjuna**<br>
 /root/script.sh
-![10-a](Images/10-a.jpg)
+![10-a](images/10-a.jpg)
 
 /root/arjuna-lb.sh
-![10-b](Images/10-b.jpg)
+![10-b](images/10-b.jpg)
 
 ## Soal 11
 
@@ -286,10 +286,10 @@ Selain menggunakan Nginx, lakukan konfigurasi Apache Web Server pada worker Abim
 
 **Abimanyu**<br>
 /root/script.sh
-![11-a](Images/11-a.jpg)
+![11-a](images/11-a.jpg)
 
 /root/abimanyu.f04.com.conf
-![11-b](Images/11-b.jpg)
+![11-b](images/11-b.jpg)
 
 ## Soal 12
 
@@ -299,7 +299,7 @@ Setelah itu ubahlah agar url www.abimanyu.yyy.com/index.php/home menjadi www.abi
 
 **Abimanyu**<br>
 /root/abimanyu.f04.com.conf
-![12-a](Images/12-a.jpg)
+![12-a](images/12-a.jpg)
 
 <!-- 
 ## Soal 13
