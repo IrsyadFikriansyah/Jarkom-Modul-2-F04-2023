@@ -1,0 +1,30 @@
+# Default menggunakan Round Robin
+ upstream myweb  {
+ 	server 192.223.3.3; #IP Prabukusuma
+ 	server 192.223.3.4; #IP Abimanyu
+ 	server 192.223.3.5; #IP Wisanggeni
+ }
+
+ server {
+ 	listen 80;
+ 	server_name arjuna.f04.com;
+
+ 	location / {
+ 	proxy_pass http://myweb;
+ 	}
+ }
+
+server {
+	listen 8001;
+	server_name arjuna.f04.com:8001;
+}
+
+server {
+	listen 8002;
+	server_name arjuna.f04.com:8002;
+}
+
+server {
+	listen 8003;
+	server_name arjuna.f04.com:8003;
+}

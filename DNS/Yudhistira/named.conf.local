@@ -1,0 +1,28 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+zone "arjuna.f04.com" {
+        type master;
+        notify yes;
+        also-notify { 192.223.2.3; };      // IP Werkudara
+        allow-transfer { 192.223.2.3; };    // IP Werkudara
+        file "/etc/bind/arjuna/arjuna.f04.com";
+};
+
+zone "abimanyu.f04.com" {
+        type master;
+        notify yes;
+        also-notify { 192.223.2.3; };      // IP Werkudara
+        allow-transfer { 192.223.2.3; };    // IP Werkudara
+        file "/etc/bind/abimanyu/abimanyu.f04.com";
+};
+
+zone "3.223.192.in-addr.arpa" {
+        type master;
+        file "/etc/bind/abimanyu/3.223.192.in-addr.arpa";
+};
